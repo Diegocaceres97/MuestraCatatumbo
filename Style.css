@@ -132,6 +132,8 @@ select option {
   text-transform: uppercase;
   letter-spacing: 4px;
   text-align: center;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .button:hover {
@@ -195,8 +197,16 @@ select option {
   transition: 0.3s;
 }
 @media (max-width: 600px){
+  .cotizador{
+    min-height: 40vh;
+  }
     .button {
-        margin-left: 35%;
-       
+        margin-left: 25%;
+      }
+      .fecha{
+        min-width: 50vw;
+        margin-left: 10%;
       }
 }
+
+
